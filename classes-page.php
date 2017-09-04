@@ -36,9 +36,34 @@
 
 			<?php endwhile; ?>
 
+				<section id="classes-posts">
+
+					<?php	$loop = new WP_Query( array( 'post_type' => 'class', ) ); 	?>
+
+				   	<?php	if ($loop->have_posts()) : while ($loop->have_posts()) : $loop->the_post(); ?>
+
+					   	<div id="class-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+					    	<?php the_title( '<h1>','</h1>' );  ?>
+
+					        <div class="class-thumbnail">
+								<?php the_post_thumbnail(array(250, 250)); ?>
+							</div>
+
+					        <div class="class-description">
+					        	<?php the_content(); ?>
+					        </div>
+
+					    </div>
+
+				    <?php endwhile; endif; ?>
+
+				</section>
+
 			<?php do_action('cpotheme_after_content'); ?>
 
 		</section>
+
 
 		<?php get_sidebar('classes'); ?>
 
