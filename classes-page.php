@@ -42,12 +42,28 @@
 
 				   	<?php	if ($loop->have_posts()) : while ($loop->have_posts()) : $loop->the_post(); ?>
 
-					   	<div id="class-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-					    	<?php the_title( '<h1>','</h1>' );  ?>
-
+					   	<div id="class-<?php the_ID(); ?>" <?php post_class("mk-item"); ?>  >
+					   		<div class="mk-item-body">
+					   			<div class="mk-item-image">
+					   				<a href="">
+					   					<?php the_post_thumbnail(array(300, 300)); ?>
+					   					<div class="anon">
+					   						<?php the_title( '<h1>','</h1>' );  ?>
+					   						<p class="anon"></p>
+					   					</div>
+					   				</a>
+					   			</div>
+					   			<div class="mk-item-desc">
+					   				<div class="mk-item-price">
+					   					
+					   				</div>
+					   				<div class="mk-item-price-button">
+					   					
+					   				</div>
+					   			</div>
+					   		</div>
 					        <div class="class-thumbnail">
-								<?php the_post_thumbnail(array(250, 250)); ?>
+								
 							</div>
 
 					        <div class="class-description">
