@@ -44,14 +44,18 @@
 
 					   	<div id="class-<?php the_ID(); ?>" <?php post_class("mk-item"); ?>  >
 					   		<div class="mk-item-body">
+					   			<div class="mk-image-header">
+					   				<a href="<?php the_permalink(); ?>">
+					   					<?php the_title( '<h1>','</h1>' ); ?>
+					   				</a>
+					   			</div>
 					   			<div class="mk-item-image">
 					   				<a class="mk-image-block" href="<?php the_permalink(); ?>">
 					   					<?php the_post_thumbnail(array(300, 300)); ?>
 					   					<div class="anons">
-					   						<?php the_title( '<h1>','</h1>' );  ?>
 					   						<p class="anon">
 					   							<?php //the_content(); 
-					   							echo mb_strimwidth( get_the_excerpt(), 0, 200, '...');
+					   							echo mb_strimwidth( get_the_excerpt(), 0, 150, '...');
 					   							?>
 					   						</p>
 					   					</div>
@@ -60,14 +64,17 @@
 					   			<div class="mk-item-desc">
 					   				<div class="mk-item-price">
 						   				<div class="mk-item-price-value">
+						   				100$
 						   				</div>
 						   				<div class="mk-item-price-text">
 						   				</div>
 					   				</div>
 					   				<div class="mk-item-price-button">
 						   				<a href="" class="btn">
-						   					<div class="btn-content"></div>
-						   					<div class="btn-hover"></div>
+						   					<div class="btn-content">Order now</div>
+						   					<div class="btn-hover">
+						   						<span>Order now</span>
+						   					</div>
 						   				</a>
 					   				</div>
 					   			</div>

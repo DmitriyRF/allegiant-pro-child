@@ -1,0 +1,313 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"rati",
+				"rating_count"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/sidebar-classes.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/single-class.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/classes-page.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/functions.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/style.css",
+		"/D/OpenServer/domains/distasio/wp-config.php",
+		"/D/OpenServer/domains/sossafety/wp-content/themes/sos/front-page.php",
+		"/D/OpenServer/domains/sossafety/wp-content/themes/sos/index.php",
+		"/D/OpenServer/domains/sossafety/wp-content/themes/sos/page.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/readme.md",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/includes/register_classes_template_sidebar.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/includes/functions.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/.gitignore",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/includes/add_theme_support.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/includes/add_custom_post_type.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/includes/change_sections_header.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/includes/add_meta_box.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/data.txt",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/add_custom_post_type.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/add_theme_support.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/change_sections_header.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/classes_post_fill_function.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/add_meta_box.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/includes/classes_post_fill_function.php",
+		"/C/Users/131416/Downloads/zip/bootstrap-4.0.0-beta/dist/css/bootstrap-grid.css",
+		"/C/Users/131416/Downloads/zip/bootstrap-4.0.0-beta/scss/bootstrap-grid.scss",
+		"/C/Users/131416/Downloads/zip/bootstrap-4.0.0-beta/Gruntfile.js",
+		"/C/Users/131416/Downloads/zip/bootstrap-4.0.0-beta/package.json",
+		"/C/Users/131416/Downloads/zip/bootstrap-4.0.0-beta/scss/mixins/_breakpoints.scss",
+		"/C/Users/131416/Downloads/zip/bootstrap-4.0.0-beta/scss/mixins/_grid-framework.scss",
+		"/C/Users/131416/Downloads/zip/bootstrap-4.0.0-beta/scss/_variables.scss",
+		"/C/Users/131416/Downloads/zip/bootstrap-4.0.0-beta/scss/_grid.scss",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro/core/functions.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro/core/layout.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro/page.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/data.txt",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro/header.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro/core/markup.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro-child/single-post.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/plugins/cpo-content-blocks/includes/metadata.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro/archive.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro/element-blog.php",
+		"/D/dima/DmitriyRF/Snowden _ Official Movie Site _ Now In Theaters.html",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro/core/sections.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant_pro/functions.php",
+		"/D/OpenServer/domains/steelcorewear/wp-config.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant/core/markup.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/themes/allegiant/includes/setup.php",
+		"/D/OpenServer/domains/steelcorewear/wp-content/uploads/file-manager/log.txt",
+		"/D/OpenServer/domains/steelcorewear/wp-config-sample.php",
+		"/D/OpenServer/domains/newPlugin/wp-content/plugins/NewPlugin/process/filter-content.php",
+		"/D/OpenServer/domains/newPlugin/wp-content/plugins/NewPlugin/process/rate-item.php",
+		"/D/OpenServer/domains/newPlugin/wp-content/plugins/NewPlugin/process/save-post.php",
+		"/D/OpenServer/domains/newPlugin/wp-content/plugins/NewPlugin/README.md",
+		"/C/Users/131416/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/My Web Sites/ltcam.mb.ca/ltcam.mb.ca/about_award.html",
+		"/D/OpenServer/domains/newPlugin/wp-config.php",
+		"/C/My Web Sites/ltcam.mb.ca/ltcam.mb.ca/tours/tour_parkview.html",
+		"/C/My Web Sites/ltcam.mb.ca/ltcam.mb.ca/francais/news-archives.html",
+		"/C/My Web Sites/ltcam.mb.ca/ltcam.mb.ca/2010presentations.html",
+		"/C/My Web Sites/ltcam.mb.ca/ltcam.mb.ca/tours/Kildonan PCC.qt",
+		"/C/My Web Sites/ltcam.mb.ca/ltcam.mb.ca/about_ltcam.html",
+		"/C/My Web Sites/ltcam.mb.ca/ltcam.mb.ca/index.html",
+		"/D/OpenServer/domains/newPlugin/wp-content/plugins/NewPlugin/includes/admin/item-options.php",
+		"/D/OpenServer/domains/newPlugin/wp-content/plugins/NewPlugin/process/item-template.php",
+		"/D/OpenServer/domains/newPlugin/wp-content/plugins/NewPlugin/includes/admin/create-metaboxes.php",
+		"/D/OpenServer/domains/newPlugin/wp-content/plugins/NewPlugin/index.php",
+		"/D/OpenServer/domains/newPlugin/wp-content/plugins/NewPlugin/includes/front/enqueue.php",
+		"/D/OpenServer/domains/newPlugin/wp-content/plugins/NewPlugin/assets/rateit/rateit.css",
+		"/C/Users/131416/AppData/Roaming/Sublime Text 3/Packages/User/hello.sublime-snippet",
+		"/D/OpenServer/domains/products/wp-config.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\OpenServer\\domains\\steelcorewear\\wp-content\\themes\\allegiant_pro",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fbc_sectionid",
+			"Book",
+			"Books",
+			"textdomain",
+			"primary-widgets",
+			"cpotheme_get_sidebar_position",
+			"get_sidebar",
+			"cpotheme_postpage_content",
+			"cpotheme_author",
+			"cpotheme_after_content",
+			"cpotheme_top_menu",
+			"class=\"clear\"",
+			"container",
+			"logo",
+			"menu-top-bar-container",
+			"menu",
+			"cpotheme_shop_menu",
+			"cpotheme_search_menu",
+			"search-icon",
+			"cpotheme_logo",
+			"cpotheme_header",
+			"homepage-clients.php",
+			"cpotheme_search_menu",
+			"add_action('cpotheme_header",
+			"cpotheme_header",
+			"meta",
+			"rate-item.php",
+			"post_meta",
+			"meta_post",
+			"meta_box",
+			"rate-item.php",
+			"np_filter_item_content",
+			"item-template.php",
+			"></",
+			"11"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.66377986894,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "child.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 383.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
