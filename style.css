@@ -1467,3 +1467,40 @@ a.btn {
   transition: all .25s;
   color: #FFefef;
 }
+
+.classes-schedule-header{
+  font: 100px/92px 'Source Sans Pro';
+  color: #ff6012;
+  margin-bottom: 40px;
+  max-width: 880px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.single-page-post-image{
+  max-width: 60%;
+  float: right;
+  font-weight: 600;
+  color: rgb(255, 96, 18);  
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.single-page-post-image h2{
+  font-size: 30px;  
+  padding: 30px;
+}
+
+.single-page-post-image img{
+  padding: 0 30px;
+}
+.single-page-post-image tr td {
+  border-bottom: none;
+}
+.single-page-post-image table {
+  font-size: 23px;
+  margin: 0 30px 24px;
+}
+.single-page-post-content-here {
+  max-width: 40%;
+  float: left;
+  font-size: 18px;
+}

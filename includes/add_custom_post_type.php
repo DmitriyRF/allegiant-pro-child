@@ -46,7 +46,7 @@ function cpotheme_new_post_type_class_init() {
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => null,
-        'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+        'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt'),
     );
  
     register_post_type( 'class', $args );
