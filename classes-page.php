@@ -78,6 +78,15 @@
 						   				</a>
 					   				</div>
 					   			</div>
+					   			<div class="mk-item-select">
+					   				<?php $classes_schedule = get_post_meta(the_ID(), 'PeriodDetails', true); ?>
+					   				<?php  printf($classes_schedule); ?>
+					   				<div class="mk-item-classpicker"></div>
+					   				<div class="mk-item-timepicker">
+					   					<input class="timepicker" />
+					   				</div>
+					   				<div class="mk-item-datepicker"></div>
+					   			</div>
 					   		</div>
 
 					    </div>

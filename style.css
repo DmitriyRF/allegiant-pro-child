@@ -1657,3 +1657,10 @@ a.btn {
     }
 
 }
+
+.mk-item-select{
+    bottom: 0px;
+    position: absolute;
+    right: 30px;
+    width: 250px;
+}
