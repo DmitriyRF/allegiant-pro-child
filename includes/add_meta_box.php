@@ -9,7 +9,14 @@ function add_metaboxes_to_classes_post_type(){
 					'function_cpotheme_callback_for_the_metabox', 
 					'class', 
 					'normal', 
-					'high');
+					'high');	
+
+	// add_meta_box(	'cpotheme_classes_schedule', 
+	// 				__( 'Weekly schedule', 'cpotheme' ), 
+	// 				'function_cpotheme_callback_for_the_metabox_weekly_schedule', 
+	// 				'class', 
+	// 				'normal', 
+	// 				'high');
 }
 
 function remove_metaboxes_from_classes_post_type(){

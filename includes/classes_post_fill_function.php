@@ -50,3 +50,52 @@ function function_cpotheme_callback_for_the_metabox($post){
 	</script>
 <?php
 }
+?>
+
+<?php
+function function_cpotheme_callback_for_the_metabox_weekly_schedule($post){
+
+	global $post;
+	// Use nonce for verification
+	wp_nonce_field( 'stealingcore_name_of_my_weekly', 'classes_name_of_nonce_weekly' );
+	//Obtaining the linked Perioddetails meta values
+	$WeeklySchedule = get_post_meta($post->ID, 'WeeklySchedule', true);
+	?>
+	<div id="weekly_schedule">
+		<table class="weekly-table">
+			<tr>
+				<th>Monday</th>
+				<th>Tuesday</th>
+				<th>Wednesday</th>
+				<th>Thursday</th>
+				<th>Friday</th>
+				<th>Saturday</th>
+				<th>Sunday</th>
+			</tr>
+			<?php 
+			  for ($i = 8; $i <= 20; $i++) 
+			  {
+			    ?>
+			    	<tr>
+			    		<?php
+			    			for ($j = 1; $j <= 7; $j++) 
+			    			{
+
+			    				echo $arr[$i]." ";
+			    				?>
+			    				<td>
+			    					<span> <?php echo $i; ?> </span>
+			    					<input type="checkbox" />
+			    				</td>
+			    				<?php
+			    			}
+			    		?>
+			    	</tr>
+			    <?php
+			  } 
+			?>
+		</table>
+	</div>
+	<?php
+}
+?>
