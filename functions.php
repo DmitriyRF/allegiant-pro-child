@@ -28,7 +28,7 @@ add_action( 'widgets_init', 'cpotheme_chield_init_sidebar');
 add_action( 'add_meta_boxes',    'add_metaboxes_to_classes_post_type' );
 add_action( 'save_post', 'classes_post_type_meta_save' );
 add_action( 'do_meta_boxes',  'remove_metaboxes_from_classes_post_type' );
-add_action( 'admin_enqueue_scripts', 'cpotheme_enqueue_custom_admin_style_script' );
+// add_action( 'admin_enqueue_scripts', 'cpotheme_enqueue_custom_admin_style_script' );
 // if ( is_page_template( 'classes' ) || is_singular( 'class' )  || is_post_type_archive( 'class' ) || is_single( 'class' ) ){
 	// echo "CLASS";
 	add_action( 'wp_enqueue_scripts', 'cpotheme_enqueue_custom_front_style_script' );
